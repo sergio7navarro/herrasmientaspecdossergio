@@ -1,0 +1,73 @@
+
+  /*------------------------------------*\
+  #COMPONENTES
+\*------------------------------------*/
+.row {
+    align-content: flex-end;
+    margin-bottom: 5%;
+  }
+  
+  .one {
+    width: 30%;
+  }
+  
+  .two{
+    width: 30%;
+  }
+  
+  .three {
+    width: 30%;
+  }
+  
+  .four {
+    width: 30%;
+    margin-bottom: 5%;
+  }
+  
+  .five{
+    width: 30%;
+    margin-bottom: 5%;
+  }
+  
+  .six{
+    width: 30%;
+    margin-bottom: 5%;
+  }
+  .card-img-top  {
+    width: 372px;
+    height: 200px;
+  }
+  
+  @media all and (max-width: 640px) {
+    .card-img-top  {
+      width: 352px;
+      height: 200px;
+    }
+    .one {
+      width: 100%;
+      margin-bottom: 5%;
+    }
+    
+    .two{
+      width: 100%;
+      margin-bottom: 5%;
+    }
+    
+    .three {
+      width: 100%;
+      margin-bottom: 5%;
+    }
+    
+    .four {
+      width: 100%;
+    }
+    
+    .five{
+      width: 100%;
+    }
+    
+    .six{
+      width: 100%;
+    }
+  }
+  

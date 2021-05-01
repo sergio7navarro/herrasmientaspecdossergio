@@ -1,0 +1,114 @@
+  /*------------------------------------*\
+  #FESTIVAL
+\*------------------------------------*/
+
+.tripadvisorphoto {
+	width: 40%;
+  padding-left: 20%;
+  margin-left: 40%;
+}
+.parteuna {
+	display: grid;
+}
+.noflex{
+	grid-column: 1;
+  grid-row: 1;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 20px;
+}
+
+.listadoflex{
+	grid-column: 1;
+  grid-row: 2;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 20px;
+}
+.probando {
+  background:url(../images/hydepark.jpg) no-repeat center center fixed;
+	background-size:cover;
+	height:500px;
+	width: 100%;
+	left:0;
+}
+
+.titulosummer{
+  color: white;
+  text-align: center;
+  font-size: 100px;
+
+}
+.flex-text{
+  padding-right: 20%;
+}
+.partedos {
+  margin: auto;
+  width: 98%;
+  grid-column: 1;
+  grid-row: 4;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 20px;
+}
+.flex-noticia {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 20px;
+}
+
+.flex-noticia > div {
+  width: 50%;
+  padding: 12px;
+}
+
+.imagenprincipal {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+@supports (display:grid) {
+  @media all and (max-width: 640px) {
+    .titulosummer{
+      font-size: 60px;
+    }
+    .h3mobile{
+      font-size: 5vw;
+    }
+    .imagensecundaria{
+      width: 90%;
+    }
+    .h5mobile {
+      font-size: 5vw;
+
+    }
+    .noflex{
+      padding: 0;
+    }
+    .listadoflex{
+      padding: 0;
+    }
+    .partedos {
+      padding: 0;
+    }
+    .flex-text{
+      padding: 0;
+      font-size: 4vw;
+      color: green;
+    }
+    .flex-noticia {
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .tripadvisorphoto {
+      width: 40%;
+      padding: 0;
+      margin-top: 180px;
+    }
+  }
+}
